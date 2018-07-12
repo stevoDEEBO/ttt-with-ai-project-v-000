@@ -46,7 +46,7 @@ module Players
 #        input = corner + 1
 #      else
         if !@board.taken?(input)
-          input = (1..9).to_a.sample
+          input = (1..9).to_a.sample.to_s
         end
 #      end
       input.to_s
