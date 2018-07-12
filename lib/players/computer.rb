@@ -47,7 +47,7 @@ module Players
 #      else
         until !@board.taken?(input)
           input = (1..9).to_a.sample
-#        end
+        end
 #      end
       input.to_s
     end
