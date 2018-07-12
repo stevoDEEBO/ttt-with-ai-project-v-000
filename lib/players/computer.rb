@@ -12,7 +12,7 @@ module Players
       [0, 4, 8],
       [6, 4, 2]
     ]
-    CORNERS = [0, 2, 8, 6]
+    #CORNERS = [0, 2, 8, 6]
 
     #winning move?
     #a. iterate over winning combos and see if any of them have 2 cells that equal current's player token and one valid move?
