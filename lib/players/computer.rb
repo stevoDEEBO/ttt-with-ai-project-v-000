@@ -45,7 +45,7 @@ module Players
 #      when corner
 #        input = corner + 1
 #      else
-        until !@board.taken?(input)
+        if !@board.taken?(input)
           input = (1..9).to_a.sample
         end
 #      end
