@@ -49,7 +49,7 @@ module Players
           input = (1..9).to_a.sample.to_s
         end
 #      end
-      input.to_s
+#      input.to_s
     end
 
 #    def opponent
