@@ -100,5 +100,5 @@ module Players
 #    def corner
 #    corners.find {|corner| @board.cells[corner] == " "}
 #    end
-#  end
+  end
 end
