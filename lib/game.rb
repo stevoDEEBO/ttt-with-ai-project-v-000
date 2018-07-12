@@ -168,6 +168,4 @@ class Game
       end
     end
   end
-  start
-
-  end
+end
