@@ -169,5 +169,5 @@ class Game
       end
     end
   end
-  start
+  #start
 end
